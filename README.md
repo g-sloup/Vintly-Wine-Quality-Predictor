@@ -4,27 +4,8 @@ We created a tool that determines the quality of wines depending on its physioch
 
 1. Pick a dataset
 2. Clean data in jupyter notebook
-3. Train the model in jupyter notebook then save the models 
-5. Use flask and html to visually render the results on a webpage
-
-note: we could have a live machine learning algo or app to generate results off an upload of a picture. (could use some web scraping to get online info).
-
-
-Attribute information:
-   Input variables (based on physicochemical tests):
-   1. Fixed acidity (tartaric acid - g / dm^3)
-   2. Volatile acidity (acetic acid - g / dm^3)
-   3. Citric acid (g / dm^3)
-   4. Residual sugar (g / dm^3)
-   5. Chlorides (sodium chloride - g / dm^3
-   6. Free sulfur dioxide (mg / dm^3)
-   7. Total sulfur dioxide (mg / dm^3)
-   8. Density (g / cm^3)
-   9. pH
-   10. Sulphates (potassium sulphate - g / dm3)
-   11. Alcohol (% by volume)
-   Output variable (based on sensory data): 
-   12 - Quality (score between 0 and 10)
+3. Train/Test/Optimize the model in jupyter notebook then save the models 
+5. Use flask and html to visually render the results on an interactive webpage
 
 <br /><br />
 
